@@ -14,7 +14,7 @@ jobs:
     steps:
       - common-say-hello:
           to: B
-      - run: echo 'Hello, from module B! :3'
+      - run: echo 'Hello, from module B! :3' 
 
   module-b-postrun:
     docker:
